@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>龙俊峰 - 前端开发实习求职简历</title>
+    <title>龙俊峰 - 实习简历</title>
     <style>
         :root {
             --primary-color: #2c3e50;
@@ -14,11 +14,11 @@
 
         body {
             font-family: "微软雅黑", system-ui, sans-serif;
-            line-height: 1.6;
+            line-height: 1.45;
             max-width: 800px;
-            margin: 30px auto;
-            padding: 30px;
-            background: linear-gradient(to bottom right, #f8f9fa 0%, #ffffff 100%);
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
             color: var(--primary-color);
         }
 
@@ -27,7 +27,14 @@
             grid-template-columns: 150px 1fr;
             gap: 30px;
             align-items: center;
-            margin-bottom: 30px;
+            margin-bottom: 25px;
+        }
+
+        .avatar {
+            width: 100%;
+            height: auto;
+            border: none;
+            border-radius: 0;
         }
 
         .contact-grid {
@@ -48,31 +55,34 @@
             font-size: 1.8em;
         }
 
+        /* 只修改这里：换成你要的标题样式 */
         h2 {
-            border-bottom: 2px solid var(--accent-color);
-            padding-bottom: 6px;
-            margin: 25px 0 15px;
+            font-size: 16px;
+            background: #f1f1f1;
+            border-left: 4px solid #3498db;
+            padding: 6px 10px;
+            margin: 20px 0 12px;
         }
 
         ul {
             padding-left: 25px;
-            margin: 15px 0;
+            margin: 12px 0;
         }
 
         li {
             list-style: none;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             line-height: 1.5;
         }
 
         .cert-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 15px;
+            gap: 12px;
         }
 
         .cert-item {
-            padding: 12px;
+            padding: 10px;
             border: 1px solid #e0e0e0;
             border-radius: 6px;
         }
@@ -82,12 +92,16 @@
                 background: white;
                 padding: 0;
             }
+
+            @page {
+                size: A4;
+                margin: 15mm;
+            }
         }
     </style>
 </head>
 
 <body>
-    <!-- 头部信息 -->
     <div class="header">
         <img src="个人照片.png" alt="个人照片" class="avatar">
         <div>
@@ -97,86 +111,83 @@
                 <div class="contact-item">📧 3449428255@qq.com</div>
                 <div class="contact-item">🎓 广州市技师学院</div>
                 <div class="contact-item">📅 2005年10月</div>
-                <div class="contact-item">🎯 前端开发实习生</div>
+                <div class="contact-item">🎯 计算机相关岗位实习生</div>
                 <div class="contact-item">🚀 随时到岗</div>
-
             </div>
         </div>
     </div>
 
-    <!-- 教育背景 -->
     <section>
         <h2>教育背景</h2>
         <ul>
             <li><strong>广州市技师学院</strong> | 计算机网络应用专业 | 2022年-2027年</li>
-            <li>主修课程：HTML5+CSS3+JavaScript网页设计与制作、Python、MYSQL、Linux</li>
+            <li>主修课程：HTML5+CSS3+JavaScript网页设计、Python、MYSQL、Linux、网络基础、系统运维</li>
         </ul>
     </section>
 
-    <!-- 职业技能 -->
     <section>
         <h2>职业技能</h2>
         <ul>
-            <li>熟练掌握HTML5、CSS3，熟悉Flex/Grid布局，能编写语义化、响应式代码；了解JavaScript基础及DOM操作</li>
-            <li>熟练使用VS Code、Photoshop、PxCook开发工具</li>
-            <li>熟悉MySQL数据库基础操作，了解数据存储与查询原理</li>
+            <li>熟练使用HTML5、CSS3进行网页开发，掌握Flex/Grid布局，能制作响应式页面，了解JavaScript基础</li>
+            <li>熟悉VS Code、Photoshop、PxCook等前端开发工具</li>
+            <li>掌握计算机网络基础原理，了解局域网搭建、IP配置、网络设备基础使用</li>
+            <li>熟悉MySQL数据库增删改查操作，了解数据存储与查询</li>
+            <li>了解Linux基础命令、麒麟操作系统运维，具备基础系统维护能力</li>
+            <li>学习能力强，能快速上手办公设备、基础运维、网页制作、技术支持类工作</li>
         </ul>
     </section>
 
-    <!-- 校园经历 -->
     <section>
         <h2>校园经历</h2>
         <ul>
-            <li><strong>参加学院第18届田径运动会（2025年11月）</strong></li>
-            <li><strong>担任学生会实践部成员（2023年9月-2024年6月）</strong></li>
-            <li>参与组织"党群聚合力"墙绘志愿活动，负责组织活动流程，协调资源，确保活动顺利进行</li>
-            <li>完成20+次校园安全检查工作，发现并解决安全问题，维护校园安全环境</li>
-            <li>协助策划建党102周年晚会活动，组织活动流程，协调资源，确保活动顺利进行</li>
+            <li><strong>担任学生会实践部成员</strong> | 2023年-2024年</li>
+            <li>参与组织党群聚合力墙绘志愿活动，负责组织活动流程，协调资源，确保活动顺利进行</li>
+            <li>完成20余次校园安全检查工作，发现并解决安全问题，维护校园安全环境</li>
+            <li>协助策划建党102周年晚会活动，统筹活动流程，配合完成现场各项事务</li>
+            <li><strong>参加学院第十八届田径运动会</strong> | 2025年11月</li>
+            <li>积极参与集体体育赛事，全力配合团队训练与赛场配合</li>
+            <li>凭借团队默契与不懈努力，拿下男子高级组引体向上团体比赛第一名</li>
+            <li>锤炼自身意志力与集体荣誉感，做事团结齐心，执行力强</li>
         </ul>
     </section>
 
-    <!-- 项目经历 -->
     <section>
         <h2>项目经历</h2>
         <ul>
-            <li><strong>响应式个人简历网页</strong> | 2026年3月</li>
-            <!-- 作品链接 -->
-            <p>https://longjunfeng005.github.io/jianli.github.io/</p>
-            <li>技术栈：HTML5,CSS3</li>
-            <li>使用HTML5搭建语义化的页面结构，运用CSS3实现页面样式与布局</li>
-            <li>运用Photoshop完成个人照片的处理与素材导出工作</li>
-            <li>通过该项目巩固了HTML5、CSS3的基础语法和CSS3的布局与样式技巧，提升了网页设计能力</li>
-            <li><strong>"庆祝中华人民共和国成立75周年"主题网页设计</strong> | 2024年11月</li>
-            <!-- 作品链接 -->
-            <p>https://longjunfeng005.github.io/project.github.io/</p>
-            <li>技术栈：HTML5,CSS3</li>
-            <li>使用HTML5、CSS3实现页面布局与交互效果</li>
-            <li>运用Photoshop完成项目中需要的图片处理与素材导出工作</li>
-            <li>借助AI工具（如deepseek）辅助代码优化与交互逻辑梳理，提升了项目的用户体验与功能性</li>
-            <li>通过项目梳理了前端开发的基本流程与原理，为后续项目开发提供了基础</li>
+            <li><strong>个人简历网页设计</strong> | 2026年3月</li>
+            <li>项目链接：https://longjunfeng005.github.io/jianli.github.io/</li>
+            <li>技术：HTML5 + CSS3</li>
+            <li>独立完成页面结构搭建、排版布局、样式美化，实现电脑与手机自适应展示</li>
+            <li>使用Photoshop处理图片、制作素材，提升页面美观度</li>
+            <li>解决布局错乱、图片变形、响应式适配问题，提升了网页开发与问题排查能力</li>
+            <li>通过项目掌握了前端开发基本流程，能独立完成简单网页制作</li>
 
+            <li style="margin-top:12px;"><strong>主题网页设计</strong> | 2024年11月</li>
+            <li>项目链接：https://longjunfeng005.github.io/project.github.io/</li>
+            <li>技术：HTML5 + CSS3</li>
+            <li>根据主题完成页面设计、内容排版、色彩搭配，实现整洁正式的展示效果</li>
+            <li>优化代码结构，减少冗余样式，提升页面加载速度</li>
+            <li>借助工具辅助优化代码逻辑与交互体验</li>
+            <li>具备从需求分析到页面制作、效果优化、上线展示的完整项目经验</li>
         </ul>
     </section>
-    <!-- 荣誉证书 -->
+
     <section>
         <h2>荣誉证书</h2>
         <div class="cert-grid">
-            <div class="cert-item">
-                <ul>
-                    <li>麒麟操作系统运维工程师认证</li>
-                    <li>网络安全竞赛三等奖</li>
-                    <li>开放人才认证</li>
-                    <li>专项技术证书</li>
-                    <li>光绘技术证书</li>
-                </ul>
-            </div>
+            <div class="cert-item">麒麟操作系统运维工程师认证</div>
+            <div class="cert-item">网络安全竞赛三等奖</div>
+            <div class="cert-item">开放人才认证</div>
+            <div class="cert-item">专项技术证书</div>
+        </div>
     </section>
 
-    <!-- 个人评价 -->
     <section>
         <h2>自我评价</h2>
         <ul>
-            <li>本人热爱前端技术，在校期间自学并完成了多个网页开发项目，具备较强的学习能力与抗压能力，能快速适应新环境，渴望在实习中积累实战经验</li>
+            <li>性格踏实稳重，待人诚恳，服从团队管理安排，做事认真细心有责任心</li>
+            <li>乐于学习新知识，适应能力强，能够快速融入工作氛围</li>
+            <li>时间充足可稳定实习，愿意从基层岗位踏实做起，积极积累职场实战经验，前端开发、网络运维、技术支持等计算机相关岗位均可胜任</li>
         </ul>
     </section>
 </body>
